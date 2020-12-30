@@ -10,7 +10,7 @@ def update():
     root.after(1, update)
 
 
-Time = tkinter.Label(root, text='こんにちは', font=('', 30), fg='black')
+Time = tkinter.Label(root, text='', font=('', 30), fg='black')
 Time.pack()
 update()
 
